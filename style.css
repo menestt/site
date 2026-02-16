@@ -1,0 +1,40 @@
+
+body{
+	background-color: azure;
+	}
+}
+div.st {
+	width: 33%;
+	
+	display: inline-block;
+	}	
+p {
+border: 10px solid teal;
+padding: 10px;
+margin: 10px;
+	}
+div.er {
+color: white;
+background-color	
+border: 10px solid teal;
+padding: 10px;
+margin: 10px;
+	}
+#background-video {
+    position: absolute; /* Positions the video relative to the browser window */
+    right: 0;
+    bottom: 0;
+    min-width: 50%; /* Ensures the video covers the full width/height */
+    min-height: 50%;
+    z-index: -1; /* Puts the video behind all other content */
+    object-fit: cover; /* Maintains aspect ratio and covers the entire container */
+}
+
+/* Style for your main content to be visible over the video */
+.content {
+    position: relative; /* Ensures content is positioned above the video (z-index of 0 or higher) */
+    z-index: 1;
+    color: red; /* Makes text readable */
+    text-align: center;
+    padding: 20px;
+}

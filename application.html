@@ -1,0 +1,145 @@
+<!--This program is writen by Ernest Menasu K-->
+<!DOCTYPE html>
+
+<html lang= "fr">
+
+<head> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ernest Menasu Site </title>
+<link rel="icon" type="image/x-icon" href="/image/favicon.jpg">
+<link rel="stylesheet" href= "style.css"  >
+</head>
+  
+  <body >
+ 
+  <hr><hr>
+  <div id= "er"><h1 style= "text-align: center"><i>Welcome to Ernest Menasu Site</i></h1>
+  <h3 style= "text-align: center"> <b>Use this site to learn some skills in Information Technology </b> </h3>
+  <hr><hr>
+  <h5 style= "color: white"><a href= "https://marketkamair.com/" title= "This is Ernest Menasu Website" target= "_blank" style= "text-align: center">Navigate to Market Kamair</a>
+  </h5>
+  <h5 style= "text-align: center"> Contact  <br> <a href= "mailto: menest2008@yahoo.fr">Send email<a/>
+  </h5>
+   <hr>
+   <h3 style= "text-align: center">Our Galleries</h3></div>
+  <div id= "st">
+  <a href= "https://marketkamair.com/"><img src= "image/paris.jpg" width="204" height="302" title="this is my love"> </img></a>
+  
+   <button onclick= "document.getElementById('pic').src= 'image/green_lit.png'">Green</button>
+   <button onclick= "document.getElementById('pic').src= 'image/red_lit.png'">Red</button>
+  <img src= "image/all_lits.png" width="204" height="302" title="Traffic Lights" id= "pic"> </img>
+  <button onclick= "document.getElementById('pic').src= 'image/all_lits.png'">Reset</button>
+  <button onclick= "document.getElementById('pic').src= 'image/lit_off.png'">Off</button>
+  <a href= "https://marketkamair.com/"><img src= "image/paris.jpg" width="204" height="302" title="this is my love"> </img></a>
+  <button onclick= "document.getElementById('pic2').src= 'image/green_lit.png'">Green</button>
+   <button onclick= "document.getElementById('pic2').src= 'image/red_lit.png'">Red</button>
+  <img src= "image/all_lits.png" width="204" height="302" title="Traffic Lights" id= "pic2"> </img>
+  <button onclick= "document.getElementById('pic2').src= 'image/all_lits.png'">Reset</button>
+  <button onclick= "document.getElementById('pic2').src= 'image/lit_off.png'">Off</button>
+  </div>
+  
+  <br><hr>
+   <h3 style= "text-align: center">Story</h3>
+<p><a href= "#ct">•	Hostinger <sub>login</sub> issue </a><br></p>
+<p>•	Backend email for receiving contact messages from site<br></p>
+<p>•	JOIN US TODAY! button is not working<br></p>
+<p>•	Donate button needs integration with payment gateway<sup>[1]</sup><br></p>
+<p>•	Contact Us <mark><del>TODAYA</del></mark> <ins>TODAY </ins>! button is not working<br></p>
+<hr>
+<a href= "
+  <a href= "https://marketkamair.com/"><img src= "image/paris.jpg" width="304" height="402" title="this is my love"></img></a>
+<hr>
+
+<p>
+HTML Input Type	Description:
+ <br>
+<input type="text">	Shows a single-line text input field<br>
+<input type="radio"> Shows a radio button <br>
+<input type="checkbox">	Shows a checkbox <br>
+<input type="submit">	Shows a submit button <br>
+<input type="button">   Shows a clickable button
+</p>
+
+<h3 style= "text-align: center">Math Operations</h3>
+  <h5> Check if you are eligible to vote in the USA: Enter your age </h5> <input  id="i1" value= "0.00">
+   <button onclick= "ernes()">Check Now</button><br>
+  <h5> Check if you are eligible to be the President the USA: Enter your age</h5> <input  id="i2" value= "0">  
+  <button onclick= "nes()">Check Now</button><br>
+  <h5> Check if you are eligible to vote: Enter your age</h5> <input  id="i3" value= "0"> 
+   <button onclick= "document.getElementById().src= 'image/green_lit.png'">Check Now</button><br>
+  <p id= "result" style = "text-align: center">The result will be displayed on this screen</p>
+  
+<script>
+function ernes(){
+let age=18;
+let x= Number(document.getElementById("i1").value);
+if(x>=age){
+document.getElementById('result').innerHTML= "Congratulation! You're eligible to vote. " + x + " is good emough";
+}else if(x<age){
+document.getElementById('result').innerHTML= "Sorry! You're Not eligible to vote. " + x + " is not good emough";
+} else {
+document.getElementById('result').innerHTML= "Incorect entry! Please enter a valid number";
+} 
+
+}
+
+function nes(){
+let isCitizen= true;
+let winPrimary= true;
+let age= 35;
+let residency= true;
+let y= Number(document.getElementById("i2").value);
+if (y>=age){
+document.getElementById("result").innerHTML= " Great! Are you a US born Citizen?";
+} else if (y<age){
+document.getElementById("result").innerHTML= " You're not eligible";
+}else{
+document.getElementById('result').innerHTML= "Incorect entry! Please enter a valid input";}
+
+}
+</script>
+
+<iframe src= "source.html" width= "1325px" high= "2200px" name= "site" style= "text-align: center"></iframe>
+<h5 style= "text-align: center"><a href= "https://marketkamair.com/" target= "site" style= "text-align: center"> Visit Market Kamair</a></h5>
+<hr><hr>
+
+
+
+
+<video id="myVideo" width="320" height="240">
+    <source src="vid2.mp4" type="video/mp4">
+</video>
+
+<button onclick="document.getElementById('myVideo').play()">Play</button>
+<button onclick="document.getElementById('myVideo').pause()">Pause</button>
+<button onclick="document.getElementById('myVideo').volume += 0.1">Increase Volume</button>
+<button onclick="document.getElementById('myVideo').volume -= 0.1">Decrease Volume</button>
+
+<video autoplay muted loop playsinline" id="background-video">
+    <source src="vid1.mp4" type="video/mp4">
+    <source src="vid.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+<!-- Your foreground content goes here -->
+<!--<div class="content">
+    <h1>My Website</h1>
+    <p>Discover amazing things.</p>
+</div>-->
+
+<hr><hr>
+
+ <p id= "ct"> Contact US  <br> <a href= "mailto: menest2008@yahoo.fr">Send email<a/>
+  </p>
+  
+  <hr><br>
+
+  <h4 style= "text-align: center"><i>Copyright 2025<br>By Ernest Menasu</i></h4>
+<!--This program is writen by Ernest Menasu K-->
+ 
+</body>
+
+</html>
+
+
+
+
